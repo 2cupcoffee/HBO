@@ -46,7 +46,8 @@ main {
   background-color: #4e505b;
 }
 /*Series page*/
-#seriesPage {
+#seriesPage,
+#moviesPage {
   position: relative;
   top: 155px;
   left: 0;
@@ -54,7 +55,6 @@ main {
 }
 
 /*Owl nav settings*/
-
 .owl-prev,
 .owl-next {
   display: flex;
@@ -83,4 +83,21 @@ main {
 }
 .subFooter {
   background-image: url("https://static.hbo.com/2025-03/quilt-march2025-darker.jpg");
+}
+
+/*Movies page*/
+.moviesSliderOne {
+  height: auto;
+}
+.movieBoxOne {
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  border: 3px solid rgba(235, 235, 235, 0.822);
+}
+.movieBoxOne:hover {
+  box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.3);
+}
+.movieBoxOne p {
+  margin-top: 15px;
+  padding: 0 10px;
 }
