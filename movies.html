@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+    <link rel="icon" type="image/x-icon" href="images/hbo.png" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--bootstrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <!--Owl carousel css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--custom css-->
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+
+    <!--Bootstrap js-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body>
+    <header id="opening-page-header seriesHeader">
+      <div class="container-fluid">
+        <div class="container">
+          <nav
+            class="navbar navbar-expand-xl bg-body-tertiary headerNavbar shadow-lg fw-light"
+            style="display: block"
+          >
+            <div class="container header-container">
+              <div class="left">
+                <a class="navbar-brand hbo-logo" href="frontpage.html">
+                  <img
+                    class="hbo-logo"
+                    src="images/hbologo.svg"
+                    alt="Logo"
+                    width="63"
+                    height="26.7"
+                    class="d-inline-block align-text-top"
+                  />
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 hamburger-list">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="series.html"
+                      >SERIES</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="movies.html"
+                      >MOVIES</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >NEW LAST & CHANCE</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >SCHEDULE</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >FREE EPISDOES</a
+                    >
+                  </li>
+                  <span class="disappearing-dropdown">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >SPECIALS</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >SPORTS</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >PODCASTS</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >MAX</a
+                      >
+                    </li>
+                  </span>
+                  <li class="nav-item dropdown more-dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      MORE
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item more" href="#">DOCUMENTARIES</a>
+                      </li>
+                      <hr />
+                      <li></li>
+                      <li>
+                        <a class="dropdown-item more" href="#">SPECIALS</a>
+                      </li>
+                      <hr />
+                      <li>
+                        <a class="dropdown-item more" href="#">SPORTS</a>
+                      </li>
+                      <hr />
+                      <li>
+                        <a class="dropdown-item more" href="#">PODCASTS</a>
+                      </li>
+                      <hr />
+                      <li>
+                        <a class="dropdown-item more" href="#">MAX</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="buttons">
+                <button type="button" class="btn btn-light">SIGN IN</button>
+                <button type="button" class="btn btn-dark sign-up">
+                  SIGN UP FOR
+                  <img
+                    class="max-logo"
+                    src="images/maxlogo.avif"
+                    height="14"
+                    width="50"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="container-fluid">
+              <div class="container subHeader">
+                <div
+                  class="row px-1 ps-xl-0 py-2 py-md-4 justify-content-between align-items-end"
+                >
+                  <div
+                    class="col-12 col-md-2 d-flex justify-content-center justify-content-md-start px-4 ps-xl-2"
+                  >
+                    <p class="fs-2 mb-0 fw-bold">Movies</p>
+                  </div>
+                  <div
+                    class="col-12 col-md-10 d-md-flex justify-content-center justify-content-md-end px-0"
+                  >
+                    <nav
+                      class="navbar navbar-expand-lg bg-body-tertiary seriesNav"
+                    >
+                      <div
+                        class="container-fluid d-flex justify-content-center justify-content-md-start px-0"
+                      >
+                        <button
+                          class="navbar-toggler"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#navbarScroll"
+                          aria-controls="navbarScroll"
+                          aria-expanded="false"
+                          aria-label="Toggle navigation"
+                        >
+                          <span class="">Explore</span>
+                        </button>
+                        <div
+                          class="collapse navbar-collapse seriesCollapse"
+                          id="navbarScroll"
+                        >
+                          <ul
+                            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 200px"
+                          >
+                            <li class="nav-item">
+                              <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#"
+                                >FEATURED MOVIES</a
+                              >
+                            </li>
+                            <hr />
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">DOCUMENTARIES</a>
+                            </li>
+                            <hr />
+                            <li class="nav-item dropdown">
+                              <a
+                                class="nav-link dropdown-toggle pe-0"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                              >
+                                CATALOGS
+                              </a>
+                              <ul
+                                class="dropdown-menu shadow-sm text-uppercase gy-2 genres"
+                              >
+                                <li>
+                                  <a class="dropdown-item" href="#"
+                                    >ALL MOVIES</a
+                                  >
+                                </li>
+                                <hr />
+                                <li>
+                                  <a class="dropdown-item" href="#"
+                                    >ALL DOCUMENTARIES</a
+                                  >
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="moviesPage">
+      <div class="container-fluid bg-light py-5">
+        <div class="container text-center mb-4">
+          <h2 class="fs-1 fw-bold">Watch Just-Added Movies</h2>
+        </div>
+        <div class="container">
+          <div class="moviesSliderOne owl-carousel owl-theme">
+            <div class="movieBoxOne mx-3">
+              <img
+                class="img-fluid"
+                src="images/moviesimages/106359a9-ce2d-3401-bd3a-e061232b8b07.jpeg"
+                alt="RATED R"
+              />
+              <p class="fw-light">RATED R</p>
+            </div>
+            <div class="movieBoxOne mx-3">
+              <img
+                class="img-fluid"
+                src="images/moviesimages/f28d5654-438a-30d2-a322-cb285d75eecc.jpeg"
+                alt="RATED R"
+              />
+              <p class="fw-light">RATED R</p>
+            </div>
+            <div class="movieBoxOne mx-3">
+              <img
+                class="img-fluid"
+                src="images/moviesimages/ff3a1ac0-5ae9-3136-8144-28d25f1bbe30.jpeg"
+                alt="RATED R"
+              />
+              <p class="fw-light">RATED R</p>
+            </div>
+            <div class="movieBoxOne mx-3">
+              <img
+                class="img-fluid"
+                src="images/moviesimages/81b1c478-05fd-346b-8104-108c3f8c37e1.jpeg"
+                alt="RATED R"
+              />
+              <p class="fw-light">RATED</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid bg-dark py-5 py-lg-4 py-xxl-5 my-5">
+        <div class="container">
+          <div class="row flex-wrap-reverse">
+            <div class="col-lg-8 series">
+              <div class="row row-cols-3">
+                <img class="col" src="images/og1.avif" alt="" />
+                <img class="col" src="images/og2.avif" alt="" />
+                <img class="col" src="images/og3.avif" alt="" />
+              </div>
+            </div>
+            <div
+              class="col-lg-4 mb-5 mb-lg-0 d-flex flex-column align-items-center justify-content-center gy-3 max-sign-up"
+            >
+              <div
+                class="d-flex flex-column align-items-center justify-content-center text-center"
+              >
+                <img
+                  class="img-fluid"
+                  src="images/maxlogo.avif"
+                  alt=""
+                  width="250"
+                  height="70"
+                />
+                <p class="fs-2 fw-light mt-3 mt-4 must-see">
+                  Must-See Series, Movies & More
+                </p>
+                <button class="fw-bold max-sign-up-btn">SIGN UP NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid pt-5">
+        <div class="container text-center mb-5">
+          <h2 class="fs-1 fw-bold">The A24 Collection</h2>
+          <p class="fw-light">
+            Find more films from the beloved studio on Max.
+          </p>
+        </div>
+        <div class="container">
+          <div class="moviesSliderTwo owl-carousel owl-theme">
+            <div class="movieBoxTwo mx-3">
+              <img
+                class="img-fluid"
+                src="images/moviesimages/ff59066b-5ce6-386a-87c2-a14a4218460c.jpeg"
+                alt=""
+              />
+              <p class="fw-bold my-3">Herectic</p>
+              <p class="fw-light">
+                Two young missionaries are forced to prove their faith when they
+                knock on the wrong door in this harrowing thriller.
+              </p>
+            </div>
+            <div class="movieBoxTwo mx-3">
+              <img
+                class="img-fluid"
+                src="images/moviesimages/43732699-2caf-399b-b017-f8aa08155500.jpeg"
+                alt=""
+              />
+              <p class="fw-bold my-3">A Different Man</p>
+              <p class="fw-light">
+                Golden Globe-winner Sebastian Stan (Best Actor - Musical or
+                Comedy) plays an aspiring actor whose new dream face turns into
+                a nightmare.
+              </p>
+            </div>
+            <div class="movieBoxTwo mx-3">
+              <img
+                class="img-fluid"
+                src="images/moviesimages/2ba2750d-77ec-3e17-a48d-de57947ee37c.jpeg"
+                alt=""
+              />
+              <p class="fw-bold my-3">We Live in Time</p>
+              <p class="fw-light">
+                Florence Pugh and Andrew Garfield star as a couple who learn to
+                cherish the unconventional route their love story has taken.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="hbo-footer">
+          <div class="subFooter container-fluid py-5">
+            <div class="subFooter-elements text-center py-4">
+              <img class="" src="images/maxlogo.avif" alt="" height="69" />
+              <p class="py-4" style="color: white">
+                Plans start at $9.99/monthPlan srt
+              </p>
+              <button class="fw-bold max-sign-up-btn-footer">
+                SIGN UP NOW
+              </button>
+            </div>
+          </div>
+          <div class="container-fluid pt-4 pb-3">
+            <div class="footer-elements text-center">
+              <img src="images/hbo-logo-footer.svg" alt="" />
+            </div>
+            <div class="my-2 about-hbo">
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link footer-nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link footer-nav-link" href="#">GET HBO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link footer-nav-link" href="#">HELP</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link footer-nav-link" href="#">SHOP</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link footer-nav-link" href="#">CAREER</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link footer-nav-link" href="#">HBO INSPIRES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link footer-nav-link" href="#"
+                    >HOW TO WATCH MAX</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="my-2 privacy-policy">
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link footer-nav-link-two" href="#"
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link footer-nav-link-two" href="#"
+                    >Terms of Use</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link footer-nav-link-two" href="#"
+                    >Ad Choices</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link footer-nav-link-two" href="#"
+                    >DoNot SellMyPersonalInformation</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <p class="fy-6 copyright-disclaimer text-center">
+              © 2024 Home Box Office, Inc. All Rights Reserved.
+              <br />
+              This website may contain mature content.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!--Js scripts-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
