@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Series</title>
     <link rel="icon" type="image/x-icon" href="images/hbo.png" />
-    <title>
-      How To Get HBO | HBO & Max Subscription Options | HBO Official...
-    </title>
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -53,10 +50,13 @@
     ></script>
   </head>
   <body>
-    <header id="opening-page-header" class="container-fluid">
+    <header id="opening-page-header seriesHeader">
       <div class="container-fluid">
         <div class="container">
-          <nav class="navbar navbar-expand-xl bg-body-tertiary headerNavbar">
+          <nav
+            class="navbar navbar-expand-xl bg-body-tertiary headerNavbar shadow-lg fw-light"
+            style="display: block"
+          >
             <div class="container header-container">
               <div class="left">
                 <a class="navbar-brand hbo-logo" href="frontpage.html">
@@ -181,240 +181,298 @@
                 </button>
               </div>
             </div>
-          </nav>
-        </div>
-      </div>
-      <div class="container subHeader">
-        <div
-          class="row ps-3 ps-xl-0 py-2 py-md-4 justify-content-between align-items-end"
-        >
-          <div
-            class="col-12 col-md-2 d-flex justify-content-center justify-content-md-start"
-          >
-            <p class="fs-2 mb-0 fw-bold">Series</p>
-          </div>
-          <div
-            class="col-12 col-md-10 d-md-flex justify-content-center justify-content-md-end"
-          >
-            <nav class="navbar navbar-expand-lg bg-body-tertiary seriesNav">
-              <div
-                class="container-fluid d-flex justify-content-center justify-content-md-start px-0"
-              >
-                <button
-                  class="navbar-toggler"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarScroll"
-                  aria-controls="navbarScroll"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="">Explore</span>
-                </button>
+            <div class="container-fluid">
+              <div class="container subHeader">
                 <div
-                  class="collapse navbar-collapse seriesCollapse"
-                  id="navbarScroll"
+                  class="row px-1 ps-xl-0 py-2 py-md-4 justify-content-between align-items-end"
                 >
-                  <ul
-                    class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-                    style="--bs-scroll-height: 200px"
+                  <div
+                    class="col-12 col-md-2 d-flex justify-content-center justify-content-md-start px-4 ps-xl-2"
                   >
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#"
-                        >Featured Series</a
+                    <p class="fs-2 mb-0 fw-bold">Series</p>
+                  </div>
+                  <div
+                    class="col-12 col-md-10 d-md-flex justify-content-center justify-content-md-end px-0"
+                  >
+                    <nav
+                      class="navbar navbar-expand-lg bg-body-tertiary seriesNav"
+                    >
+                      <div
+                        class="container-fluid d-flex justify-content-center justify-content-md-start px-0"
                       >
-                    </li>
-                    <hr />
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Sports</a>
-                    </li>
-                    <hr />
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">All Series</a>
-                    </li>
-                    <hr />
-                    <li class="nav-item dropdown">
-                      <a
-                        class="nav-link dropdown-toggle pe-0"
-                        href="#"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        Genres
-                      </a>
-                      <ul
-                        class="dropdown-menu shadow-sm text-uppercase gy-2 genres"
-                      >
-                        <li>
-                          <a class="dropdown-item" href="#">Action Series</a>
-                        </li>
-                        <hr />
-                        <li>
-                          <a class="dropdown-item" href="#">Comedy Series</a>
-                        </li>
-                        <hr />
-                        <li>
-                          <a class="dropdown-item" href="#">Crime Series</a>
-                        </li>
-                        <hr />
-                        <li>
-                          <a class="dropdown-item" href="#"
-                            >Documentary Series</a
+                        <button
+                          class="navbar-toggler"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#navbarScroll"
+                          aria-controls="navbarScroll"
+                          aria-expanded="false"
+                          aria-label="Toggle navigation"
+                        >
+                          <span class="">Explore</span>
+                        </button>
+                        <div
+                          class="collapse navbar-collapse seriesCollapse"
+                          id="navbarScroll"
+                        >
+                          <ul
+                            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 200px"
                           >
-                        </li>
-                        <hr />
-                        <li>
-                          <a class="dropdown-item" href="#">Drama Series</a>
-                        </li>
-                        <hr />
-                        <li>
-                          <a class="dropdown-item" href="#">Sports Series</a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
+                            <li class="nav-item">
+                              <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#"
+                                >Featured Series</a
+                              >
+                            </li>
+                            <hr />
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Sports</a>
+                            </li>
+                            <hr />
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">All Series</a>
+                            </li>
+                            <hr />
+                            <li class="nav-item dropdown">
+                              <a
+                                class="nav-link dropdown-toggle pe-0"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                              >
+                                Genres
+                              </a>
+                              <ul
+                                class="dropdown-menu shadow-sm text-uppercase gy-2 genres"
+                              >
+                                <li>
+                                  <a class="dropdown-item" href="#"
+                                    >Action Series</a
+                                  >
+                                </li>
+                                <hr />
+                                <li>
+                                  <a class="dropdown-item" href="#"
+                                    >Comedy Series</a
+                                  >
+                                </li>
+                                <hr />
+                                <li>
+                                  <a class="dropdown-item" href="#"
+                                    >Crime Series</a
+                                  >
+                                </li>
+                                <hr />
+                                <li>
+                                  <a class="dropdown-item" href="#"
+                                    >Documentary Series</a
+                                  >
+                                </li>
+                                <hr />
+                                <li>
+                                  <a class="dropdown-item" href="#"
+                                    >Drama Series</a
+                                  >
+                                </li>
+                                <hr />
+                                <li>
+                                  <a class="dropdown-item" href="#"
+                                    >Sports Series</a
+                                  >
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </nav>
+                  </div>
                 </div>
               </div>
-            </nav>
-          </div>
+            </div>
+          </nav>
         </div>
       </div>
     </header>
     <main id="seriesPage">
-      <hr />
       <div class="container">
         <h2 class="fs-1 fw-bold my-5 text-center">Watch New Episodes</h2>
       </div>
       <div class="container">
         <div class="row row-cols-3">
           <div class="col">
-            <video controls width="100%" height="auto">
-              <source src="https://www.hbo.com/celtics-city" />
-            </video>
-            <p>NEW EPISODES MONDAYS AT 9 PM</p>
-            <p>
-              <strong>Celtics City</strong>
-              <br />
-              From Bill Simmons and the Executive Producers of The Last Dance,
-              this docuseries chronicles the NBA's most storied franchise, the
-              Boston Celtics
-            </p>
+            <div>
+              <video
+                controls
+                poster="images/CelticsCityS1VersionB-ka-1920.avif"
+                width="100%"
+                height="auto"
+              >
+                <source src="" />
+              </video>
+              <p class="fw-light">SEASON 4 PREMIERES MARCH 9 AT 10 PM</p>
+              <p><strong>Celtics City</strong></p>
+              <p class="fw-light">
+                From Bill Simmons and the Executive Producers of The Last Dance,
+                this docuseries chronicles the NBA's most storied franchise, the
+                Boston Celtics.
+              </p>
+            </div>
           </div>
           <div class="col">
-            <video controls width="100%" height="auto">
-              <source
-                src="blob:https://www.hbo.com/2116f3b9-b3d9-4688-884b-b15b2965963f"
-              />
-            </video>
-            <p>SEASON 4 PREMIERES MARCH 9 AT 10 PM</p>
-            <p>
-              <strong>The Righteous Gemstones </strong>
-              <br />
-              In the final season, the family’s codependence is tested as they
-              attempt to move forward without letting go of their storied past.
-            </p>
+            <div>
+              <video
+                controls
+                poster="images/the-righteous-gemstones-s4-ka-1920.avif"
+                width="100%"
+                height="auto"
+              >
+                <source src="" />
+              </video>
+              <p class="fw-light">SEASON 4 PREMIERES MARCH 9 AT 10 PM</p>
+              <p><strong>The Righteous Gemstones</strong></p>
+              <p class="fw-light">
+                In the final season, the family’s codependence is tested as they
+                attempt to move forward without letting go of their storied
+                past.
+              </p>
+            </div>
           </div>
           <div class="col">
-            <video controls width="100%" height="auto">
-              <source
-                src="blob:https://www.hbo.com/2116f3b9-b3d9-4688-884b-b15b2965963f"
-              />
-            </video>
-            <p>AVAILABLE NOW</p>
-            <p>
-              <strong>Real Time With Bill Maher </strong>
-              <br />
-              The award-winning talk/comedy series returns with Season 23,
-              continuing its run as the premiere platform for debate, comedy,
-              and social discourse.In the final season, the family’s
-              codependence is tested as they attempt to move forward without
-              letting go of their storied past.
-            </p>
+            <div>
+              <video
+                controls
+                poster="images/real-time-with-bill-maher-s23-ka-1920.avif"
+                width="100%"
+                height="auto"
+              >
+                <source src="" />
+              </video>
+              <p class="fw-light">AVAILABLE NOW</p>
+              <p><strong>Real Time With Bill Maher</strong></p>
+              <p class="fw-light">
+                The award-winning talk/comedy series returns with Season 23,
+                continuing its run as the premiere platform for debate, comedy,
+                and social discourse.
+              </p>
+            </div>
           </div>
           <div class="col">
-            <video controls width="100%" height="auto">
-              <source src="https://www.hbo.com/celtics-city" />
-            </video>
-            <p>AVAILABLE NOW</p>
-            <p>
-              <strong>The White Lotus</strong>
-              <br />
-              This social satire is set at an exclusive Thai resort and follows
-              the exploits of various guests and employees over the span of a
-              week.
-            </p>
+            <div>
+              <video
+                controls
+                poster="images/TheWhiteLotusS3-ka-1920.avif"
+                width="100%"
+                height="auto"
+              >
+                <source src="" />
+              </video>
+              <p class="fw-light">AVAILABLE NOW</p>
+              <p><strong>The White Lotus</strong></p>
+              <p class="fw-light">
+                This social satire is set at an exclusive Thai resort and
+                follows the exploits of various guests and employees over the
+                span of a week.
+              </p>
+            </div>
           </div>
           <div class="col">
-            <video controls width="100%" height="auto">
-              <source
-                src="blob:https://www.hbo.com/2116f3b9-b3d9-4688-884b-b15b2965963f"
-              />
-            </video>
-            <p>AVAILABLE NOW</p>
-            <p>
-              <strong>Last Week Tonight with John Oliver</strong>
-              <br />
-              Winner of 30 Emmy® Awards, this insightful and meticulously
-              researched series offers a satirical look at the week in news,
-              politics, and more.
-            </p>
+            <div>
+              <video
+                controls
+                poster="images/LWT-S12-ka-1920_0.avif"
+                width="100%"
+                height="auto"
+              >
+                <source src="" />
+              </video>
+              <p class="fw-light">AVAILABLE NOW</p>
+              <p><strong>Last Week Tonight with John Oliver</strong></p>
+              <p class="fw-light">
+                Winner of 30 Emmy® Awards, this insightful and meticulously
+                researched series offers a satirical look at the week in news,
+                politics, and more.
+              </p>
+            </div>
           </div>
           <div class="col">
-            <video controls width="100%" height="auto">
-              <source
-                src="blob:https://www.hbo.com/2116f3b9-b3d9-4688-884b-b15b2965963f"
-              />
-            </video>
-            <p>AVAILABLE NOW</p>
-            <p>
-              <strong>Dune: Prophecy</strong>
-              <br />
-              Ten thousand years before Paul Atreides — before they became the
-              Bene Gesserit — a powerful sisterhood works in the shadows to
-              guide the universe.
-            </p>
+            <div>
+              <video
+                controls
+                poster="images/dune-prophecy-version-c-ka-1920.avif"
+                width="100%"
+                height="auto"
+              >
+                <source src="" />
+              </video>
+              <p class="fw-light">AVAILABLE NOW</p>
+              <p><strong>Dune: Prophecy</strong></p>
+              <p class="fw-light">
+                Ten thousand years before Paul Atreides — before they became the
+                Bene Gesserit — a powerful sisterhood works in the shadows to
+                guide the universe.
+              </p>
+            </div>
           </div>
           <div class="col">
-            <video controls width="100%" height="auto">
-              <source src="https://www.hbo.com/celtics-city" />
-            </video>
-            <p>AVAILABLE NOW</p>
-            <p>
-              <strong>Get Millie Black</strong>
-              <br />
-              After returning home to Jamaica, ex-Scotland Yard detective Millie
-              Black works a missing persons case that threatens to blow up her
-              world.
-            </p>
+            <div>
+              <video
+                controls
+                poster="images/get-millie-black-s1-ka-1920.avif"
+                width="100%"
+                height="auto"
+              >
+                <source src="" />
+              </video>
+              <p class="fw-light">AVAILABLE NOW</p>
+              <p><strong>Get Millie Black</strong></p>
+              <p class="fw-light">
+                After returning home to Jamaica, ex-Scotland Yard detective
+                Millie Black works a missing persons case that threatens to blow
+                up her world.
+              </p>
+            </div>
           </div>
           <div class="col">
-            <video controls width="100%" height="auto">
-              <source
-                src="blob:https://www.hbo.com/2116f3b9-b3d9-4688-884b-b15b2965963f"
-              />
-            </video>
-            <p>AVAILABLE NOW</p>
-            <p>
-              <strong>Like Water for Chocolate</strong>
-              <br />
-              Tita and Pedro have counted the moments until they could
-              marry…until family customs upend their plans. Tita finds refuge in
-              the kitchen and channels her deepest desires into her recipes.
-            </p>
+            <div>
+              <video
+                controls
+                poster="images/e355be50-bef1-3c1d-9622-37bc6b33ddf3.jpeg"
+                width="100%"
+                height="auto"
+              >
+                <source src="" />
+              </video>
+              <p class="fw-light">AVAILABLE NOW</p>
+              <p><strong>Like Water for Chocolate </strong></p>
+              <p class="fw-light">
+                Tita and Pedro have counted the moments until they could
+                marry…until family customs upend their plans. Tita finds refuge
+                in the kitchen and channels her deepest desires into her
+                recipes.
+              </p>
+            </div>
           </div>
           <div class="col">
-            <video controls width="100%" height="auto">
-              <source
-                src="blob:https://www.hbo.com/2116f3b9-b3d9-4688-884b-b15b2965963f"
-              />
-            </video>
-            <p>AVAILABLE NOW</p>
-            <p>
-              <strong>Hard Knocks: In Season with the AFC North</strong>
-              <br />
-              For the first time, television’s most acclaimed sports documentary
-              franchise chronicles an entire NFL division.
-            </p>
+            <div>
+              <video
+                controls
+                poster="images/hk-inseason-afc-north-s4-ka-1920.avif"
+                width="100%"
+                height="auto"
+              >
+                <source src="" />
+              </video>
+              <p class="fw-light">AVAILABLE NOW</p>
+              <p><strong>Hard Knocks: In Season with the AFC North</strong></p>
+              <p class="fw-light">
+                For the first time, television’s most acclaimed sports
+                documentary franchise chronicles an entire NFL division.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -450,13 +508,18 @@
           </div>
         </div>
       </div>
-      <section class="container-fluid">
+      <div class="container-fluid">
         <div class="container my-5">
           <h2 class="fs-1 text-center">House of the Dragon</h2>
         </div>
         <div class="row px-5">
           <div class="col-lg-6 col-12">
-            <video controls width="100%" height="auto">
+            <video
+              controls
+              poster="https://static.hbo.com/2024-03/HOTD-S2-BLACK-TRAILER-KEYFRAME-IMAGE-ONLY.jpg;"
+              width="100%"
+              height="auto"
+            >
               <source src="" />
             </video>
             <p>AVAILABLE NOW</p>
@@ -468,7 +531,12 @@
             </p>
           </div>
           <div class="col-lg-6 col-12">
-            <video controls width="100%" height="auto">
+            <video
+              controls
+              poster="https://static.hbo.com/2024-03/HOTD-S2-GREEN-TRAILER-KEYFRAME-IMAGE-ONLY.jpg"
+              width="100%"
+              height="auto"
+            >
               <source src="" />
             </video>
             <p>AVAILABLE NOW</p>
@@ -480,169 +548,179 @@
             </p>
           </div>
         </div>
+      </div>
+      <section class="container-fluid my-5">
+        <div class="container">
+          <h2 class="fs-1 text-center">HBO Classics</h2>
+          <div class="classicSlider my-5 d-flex justify-content-center">
+            <div class="owl-carousel owl-theme showSlider">
+              <div class="showBox">
+                <img
+                  class="img-fluid"
+                  src="images/box1.webp"
+                  alt="Game of Thrones"
+                />
+                <p class="fw-bold">Game of Thrones</p>
+                <p>
+                  The epic drama series based on the acclaimed book series bby
+                  George R.R.Martin follows the tumuituous struggle for the Iron
+                  Throne.
+                </p>
+              </div>
+              <div class="showBox">
+                <img class="img-fluid" src="images/box2.avif" alt="The Wire" />
+                <p class="fw-bold">The Wire</p>
+                <p>
+                  Created by David Simon, this seminal series explores the world
+                  of crime in Baitimore through the lenses of both civilians and
+                  law enforcement.
+                </p>
+              </div>
+              <div class="showBox">
+                <img
+                  class="img-fluid"
+                  src="images/box3.jpeg"
+                  alt="Boarwalk Empire"
+                />
+                <p class="fw-bold">Boarwalk Empire</p>
+                <p>
+                  Epic HBO drama series that follows the birth and rise of
+                  organized crime in Prohibition-era Atlantic City. Steve
+                  Buscemi stars.
+                </p>
+              </div>
+              <div class="showBox">
+                <img
+                  class="img-fluid"
+                  src="images/box4.avif"
+                  alt="Sex and the City"
+                />
+                <p class="fw-bold">Sex and the City</p>
+                <p>
+                  Sarah jessica Parker stars as Carrie Bradshaw, a New York
+                  writer who finds inspiration for her column from the genuine,
+                  emotional, and often humorous exploits of her friends and
+                  lovers.
+                </p>
+              </div>
+              <div class="showBox">
+                <img
+                  class="img-fluid"
+                  src="images/box5.avif"
+                  alt="Curb Your Enthusiasm"
+                />
+                <p class="fw-bold">Curb Your Enthusiasm</p>
+                <p>
+                  Larry David as a himself in this comedy series that follows
+                  him as he lands himself in various predicaments.
+                </p>
+              </div>
+              <div class="showBox">
+                <img
+                  class="img-fluid"
+                  src="images/box6.avif"
+                  alt="Band of Brothers"
+                />
+                <p class="fw-bold">Band of Brothers</p>
+                <p>
+                  This landmark miniseries, executive-producted by Steven
+                  Spielberg and Tom Hanks, recounts the remarkable achievements
+                  of an elite team of U.S. paratroopers during World War II.
+                </p>
+              </div>
+              <div class="showBox">
+                <img
+                  class="img-fluid"
+                  src="images/box7.avif"
+                  alt="The Sopranos"
+                />
+                <p class="fw-bold">The Sopranos</p>
+                <p>
+                  Balancing family and work can be stressfuk, no matter what
+                  your profession - so just imagine what husband, father, and
+                  mob boss Tony has to deal with.
+                </p>
+              </div>
+              <div class="showBox">
+                <img class="img-fluid" src="images/box8.avif" alt="Veep" />
+                <p class="fw-bold">Veep</p>
+                <p>
+                  Julia Louis-Dreyfus leads a stellar ensemble in this
+                  award-winning comedy about a vice president with bigger
+                  ambitions.
+                </p>
+              </div>
+              <div class="showBox">
+                <img
+                  class="img-fluid"
+                  src="images/box9.webp"
+                  alt="Six Feet under"
+                />
+                <p class="fw-bold">Six Feet under</p>
+                <p>
+                  Family is complicated - escpecially when you own (and live in)
+                  a funeral home with them. experience the highs and lows of
+                  life and death with the Fisher family in this darkly comedy
+                  drama.
+                </p>
+              </div>
+              <div class="showBox">
+                <img
+                  class="img-fluid"
+                  src="images/box10.avif"
+                  alt="True Blood"
+                />
+                <p class="fw-bold">True Blood</p>
+                <p>
+                  Explore a Louisiaana town where a new synthetic blood has
+                  allowed vampires to mix with humans for the first time...with
+                  varied results.
+                </p>
+              </div>
+              <div class="showBox">
+                <img class="img-fluid" src="images/box11.avif" alt="Deadwood" />
+                <p class="fw-bold">Deadwood</p>
+                <p>
+                  in 1876, Deadwood's inhabitansts are locked in a ruthless
+                  power struggles.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      <section class="container my-5">
-        <h2 class="fs-1 text-center">HBO Classics</h2>
-        <div class="classicSlider my-5 d-flex justify-content-center">
-          <div class="owl-carousel owl-theme showSlider">
-            <div class="showBox">
-              <img
-                class="img-fluid"
-                src="images/box1.webp"
-                alt="Game of Thrones"
-              />
-              <p class="fw-bold">Game of Thrones</p>
+      <section class="container-fluid">
+        <div class="container">
+          <h2 class="fs-1 text-center my-5">Coming soon to HBO</h2>
+          <div class="row px-5">
+            <div class="col-lg-6 col-12">
+              <video controls width="100%" height="auto">
+                <source src="" />
+              </video>
+              <p>SEASON 2 PREMIERS APRIL 2025|WINNER OF 8 EMMY* AWARDS</p>
+              <p><strong>The Last of Us</strong></p>
               <p>
-                The epic drama series based on the acclaimed book series bby
-                George R.R.Martin follows the tumuituous struggle for the Iron
-                Throne.
+                After a global pandemic destroys a civilization, a hardened
+                survivor takes charge of a 14-year-old girl who may be
+                humanity's last hope.
               </p>
             </div>
-            <div class="showBox">
-              <img class="img-fluid" src="images/box2.avif" alt="The Wire" />
-              <p class="fw-bold">The Wire</p>
+            <div class="col-lg-6 col-12">
+              <video controls width="100%" height="auto">
+                <source src="" />
+              </video>
+              <p>SEASON 1 AVAILABLE NOW|RENEWED FOR SEASON 2</p>
+              <p><strong>the Reheaesal</strong></p>
               <p>
-                Created by David Simon, this seminal series explores the world
-                of crime in Baitimore through the lenses of both civilians and
-                law enforcement.
-              </p>
-            </div>
-            <div class="showBox">
-              <img
-                class="img-fluid"
-                src="images/box3.jpeg"
-                alt="Boarwalk Empire"
-              />
-              <p class="fw-bold">Boarwalk Empire</p>
-              <p>
-                Epic HBO drama series that follows the birth and rise of
-                organized crime in Prohibition-era Atlantic City. Steve Buscemi
-                stars.
-              </p>
-            </div>
-            <div class="showBox">
-              <img
-                class="img-fluid"
-                src="images/box4.avif"
-                alt="Sex and the City"
-              />
-              <p class="fw-bold">Sex and the City</p>
-              <p>
-                Sarah jessica Parker stars as Carrie Bradshaw, a New York writer
-                who finds inspiration for her column from the genuine,
-                emotional, and often humorous exploits of her friends and
-                lovers.
-              </p>
-            </div>
-            <div class="showBox">
-              <img
-                class="img-fluid"
-                src="images/box5.avif"
-                alt="Curb Your Enthusiasm"
-              />
-              <p class="fw-bold">Curb Your Enthusiasm</p>
-              <p>
-                Larry David as a himself in this comedy series that follows him
-                as he lands himself in various predicaments.
-              </p>
-            </div>
-            <div class="showBox">
-              <img
-                class="img-fluid"
-                src="images/box6.avif"
-                alt="Band of Brothers"
-              />
-              <p class="fw-bold">Band of Brothers</p>
-              <p>
-                This landmark miniseries, executive-producted by Steven
-                Spielberg and Tom Hanks, recounts the remarkable achievements of
-                an elite team of U.S. paratroopers during World War II.
-              </p>
-            </div>
-            <div class="showBox">
-              <img
-                class="img-fluid"
-                src="images/box7.avif"
-                alt="The Sopranos"
-              />
-              <p class="fw-bold">The Sopranos</p>
-              <p>
-                Balancing family and work can be stressfuk, no matter what your
-                profession - so just imagine what husband, father, and mob boss
-                Tony has to deal with.
-              </p>
-            </div>
-            <div class="showBox">
-              <img class="img-fluid" src="images/box8.avif" alt="Veep" />
-              <p class="fw-bold">Veep</p>
-              <p>
-                Julia Louis-Dreyfus leads a stellar ensemble in this
-                award-winning comedy about a vice president with bigger
-                ambitions.
-              </p>
-            </div>
-            <div class="showBox">
-              <img
-                class="img-fluid"
-                src="images/box9.webp"
-                alt="Six Feet under"
-              />
-              <p class="fw-bold">Six Feet under</p>
-              <p>
-                Family is complicated - escpecially when you own (and live in) a
-                funeral home with them. experience the highs and lows of life
-                and death with the Fisher family in this darkly comedy drama.
-              </p>
-            </div>
-            <div class="showBox">
-              <img class="img-fluid" src="images/box10.avif" alt="True Blood" />
-              <p class="fw-bold">True Blood</p>
-              <p>
-                Explore a Louisiaana town where a new synthetic blood has
-                allowed vampires to mix with humans for the first time...with
-                varied results.
-              </p>
-            </div>
-            <div class="showBox">
-              <img class="img-fluid" src="images/box11.avif" alt="Deadwood" />
-              <p class="fw-bold">Deadwood</p>
-              <p>
-                in 1876, Deadwood's inhabitansts are locked in a ruthless power
-                struggles.
+                Nathan Fielder allows ordinary people to prepare for life's
+                biggest moments by "rehearsing" them in carefully crafted
+                simulations.
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section class="container">
-        <h2 class="fs-1 text-center my-5">Coming soon to HBO</h2>
-        <div class="row px-5">
-          <div class="col-lg-6 col-12">
-            <video controls width="100%" height="auto">
-              <source src="" />
-            </video>
-            <p>SEASON 2 PREMIERS APRIL 2025|WINNER OF 8 EMMY* AWARDS</p>
-            <p><strong>The Last of Us</strong></p>
-            <p>
-              After a global pandemic destroys a civilization, a hardened
-              survivor takes charge of a 14-year-old girl who may be humanity's
-              last hope.
-            </p>
-          </div>
-          <div class="col-lg-6 col-12">
-            <video controls width="100%" height="auto">
-              <source src="" />
-            </video>
-            <p>SEASON 1 AVAILABLE NOW|RENEWED FOR SEASON 2</p>
-            <p><strong>the Reheaesal</strong></p>
-            <p>
-              Nathan Fielder allows ordinary people to prepare for life's
-              biggest moments by "rehearsing" them in carefully crafted
-              simulations.
-            </p>
-          </div>
-        </div>
-      </section>
+
       <footer>
         <div class="hbo-footer">
           <div class="subFooter container-fluid py-5">
@@ -651,7 +729,9 @@
               <p class="py-4" style="color: white">
                 Plans start at $9.99/monthPlan srt
               </p>
-              <button class="fw-bold max-sign-up-btn">SIGN UP NOW</button>
+              <button class="fw-bold max-sign-up-btn-footer">
+                SIGN UP NOW
+              </button>
             </div>
           </div>
           <div class="container-fluid pt-4 pb-3">
@@ -720,6 +800,7 @@
       </footer>
     </main>
 
+    <!--Js scripts-->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
       integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
