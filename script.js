@@ -4,10 +4,10 @@ $(document).ready(function () {
     margin: 10,
     nav: true,
     dots: false,
-    navContainer: ".classicSlider",
     responsive: {
       0: {
         items: 2,
+        nav: false,
       },
       767: {
         items: 3,
