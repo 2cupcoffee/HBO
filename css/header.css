@@ -13,7 +13,6 @@
   color: #404040;
   font-size: 14px;
   font-weight: 300;
-  padding-right: 0.875rem !important;
 }
 .more {
   color: #404040;
@@ -60,6 +59,8 @@ hr {
   --bs-btn-padding-x: 14px;
 }
 .buttons {
+  position: relative;
+  right: 0;
   display: flex;
   gap: 10px;
   order: 3;
@@ -73,25 +74,11 @@ hr {
   display: flex;
   align-items: center;
 }
-.subHeader {
-  position: fixed;
-  top: 56px;
-  left: 0;
-  right: 0;
-  z-index: 99;
-  background-color: white;
-}
-.genres li {
-  font-size: 14px;
-}
+/*SeriesHeader*/
+
 .seriesNav {
   background-color: white !important;
 }
-.seriesCollapse {
-  height: inherit !important;
-}
-.navbar-toggler:focus {
-  text-decoration: none;
-  outline: 0;
+.seriesNav .navbar-toggler:focus {
   box-shadow: none !important;
 }
