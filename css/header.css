@@ -41,6 +41,7 @@ hr {
   left: 0;
   right: 0;
   background-color: white !important;
+  z-index: 100;
 }
 .btn-light {
   --bs-btn-hover-bg: rgb(233, 233, 233);
