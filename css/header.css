@@ -1,0 +1,96 @@
+* {
+  font-family: roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#opening-page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  color: #404040;
+  font-size: 14px;
+  font-weight: 300;
+  padding-right: 0.875rem !important;
+}
+.more {
+  color: #404040;
+  font-size: 14px;
+  font-weight: 300;
+}
+hr {
+  margin: 5px;
+}
+.navbar-toggler {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: var(--bs-navbar-color);
+  background-color: white;
+  border: var(--bs-border-width) var(--bs-navbar-toggler-border-color);
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
+  border: none !important;
+}
+.headerNavbar {
+  --bs-navbar-toggler-focus-width: 0rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white !important;
+}
+.btn-light {
+  --bs-btn-hover-bg: rgb(233, 233, 233);
+  --bs-btn-hover-border-color: transparent;
+  --bs-border-radius: 0;
+  --bs-btn-font-size: 14px;
+  --bs-btn-font-weight: 500;
+  --bs-btn-padding-x: 10px;
+  --bs-btn-padding-y: 10px;
+}
+.btn-dark {
+  --bs-btn-hover-border-color: transparent;
+  --bs-border-radius: 0;
+  --bs-btn-font-size: 14px;
+  --bs-btn-font-weight: 500;
+  --bs-btn-padding-x: 14px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+  order: 3;
+}
+.sign-up {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.max-logo {
+  display: flex;
+  align-items: center;
+}
+.subHeader {
+  position: fixed;
+  top: 56px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: white;
+}
+.genres li {
+  font-size: 14px;
+}
+.seriesNav {
+  background-color: white !important;
+}
+.seriesCollapse {
+  height: inherit !important;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none !important;
+}

@@ -1,0 +1,49 @@
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.hbo-footer {
+  background-color: #404040;
+  margin-top: 120px;
+}
+.footer-nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: white;
+  text-decoration: none;
+  background: 0 0;
+  border: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  font-weight: 300;
+}
+.footer-nav-link:hover {
+  text-decoration: underline;
+  color: white;
+}
+.footer-nav-link-two {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: 12px;
+  font-weight: var(--bs-nav-link-font-weight);
+  color: white;
+  text-decoration: none;
+  background: 0 0;
+  border: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  font-weight: 300;
+}
+.footer-nav-link-two:hover {
+  text-decoration: underline;
+  color: white;
+}
+.copyright-disclaimer {
+  font-size: 12px;
+  color: white;
+  font-weight: 300;
+}
