@@ -101,3 +101,12 @@ main {
   margin-top: 15px;
   padding: 0 10px;
 }
+/*Newandlastchance page*/
+
+.whatToWatch div {
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.whatToWatch div:hover {
+  box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.3);
+}
+
