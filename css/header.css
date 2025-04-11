@@ -82,3 +82,17 @@ hr {
 .seriesNav .navbar-toggler:focus {
   box-shadow: none !important;
 }
+/* sign in modal */
+.modalHeader {
+  display: block;
+  text-align: center;
+}
+.modalInfo {
+  background: linear-gradient(to bottom, #404040, #0d0d0d);
+  color: white;
+  border: none;
+  padding: 20px;
+}
+.modal-container button {
+  border: none;
+}
