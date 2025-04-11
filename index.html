@@ -39,6 +39,64 @@
     <!--owl js-->
   </head>
   <body>
+    <div class="modal fade" id="signinModal">
+      <div class="modal-dialog">
+        <div class="modal-content modalInfo">
+          <div class="modal-header modalHeader">
+            <div class="modal-title fs-5" id="exampleModalLabel">
+              <h2 class="fs-1 fw-bold">Sign In</h2>
+              <p class="fw-bold fs-6">
+                Enter your Max account email address and password
+              </p>
+            </div>
+          </div>
+          <div class="modal-body">
+            <section class="modal-container">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                  <div id="emailHelp" class="form-text"></div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                  />
+                </div>
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >Confirm Password</label
+                  >
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-primary bg-light text-black fw-bold py-2 px-4"
+                >
+                  Sign In
+                </button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
     <header id="opening-page-header">
       <div class="container-fluid">
         <div class="container">
@@ -161,8 +219,20 @@
                 </ul>
               </div>
               <div class="buttons">
-                <button type="button" class="btn btn-light">SIGN IN</button>
-                <button type="button" class="btn btn-dark sign-up">
+                <button
+                  data-bs-toggle="modal"
+                  data-bs-target="#signinModal"
+                  type="button"
+                  class="btn btn-light"
+                >
+                  SIGN IN
+                </button>
+                <button
+                  data-bs-toggle="modal"
+                  data-bs-target="#signinModal"
+                  type="button"
+                  class="btn btn-dark sign-up"
+                >
                   SIGN UP FOR
                   <img
                     class="max-logo"
